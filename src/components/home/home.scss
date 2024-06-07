@@ -1,0 +1,23 @@
+.homeStyle {
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+
+  .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart-amount {
+    text-align: center;
+    // font-size: 0.9rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+
+    .amount {
+      font-weight: 600;
+    }
+  }
+}

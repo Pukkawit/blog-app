@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+fieldset {
+  margin: 0 auto;
+  max-width: 350px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+    .form-group {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+
+      label {
+        min-width: 80px;
+      }
+
+      .radio-group {
+        display: flex;
+        gap: 10px;
+
+        label {
+          display: flex;
+          gap: 5px;
+        }
+      }
+
+      .form-field {
+        div {
+          font-size: 0.8rem;
+          color: #df0e0e;
+        }
+      }
+
+      input[type="text"],
+      input[type="password"],
+      input[type="email"] {
+        padding: 0.5rem;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #a0a0a0;
+      }
+
+      .gender {
+        min-width: 80px;
+      }
+    }
+    .terms {
+      display: flex;
+      gap: 5px;
+      font-size: 0.9rem;
+      line-height: 1.2;
+      align-items: flex-start;
+      text-align: left;
+
+      input[type="checkbox"] {
+        margin-top: 2px;
+      }
+
+      .error-terms {
+        color: #df0e0e;
+      }
+    }
+    button {
+      align-self: center;
+      margin-top: 15px;
+    }
+  }
+}
