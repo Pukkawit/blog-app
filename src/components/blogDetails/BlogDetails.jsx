@@ -10,7 +10,7 @@ function BlogDetails() {
   const reDirect = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:3001/blogs/${id}`)
+    fetch(`http://localhost:8000/blogs/${id}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
